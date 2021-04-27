@@ -1036,6 +1036,7 @@ nav ul li a:hover{
     }
     
     .secf1-img{
+        /* display: none !important; */
         position: absolute;
         bottom: 0%;
         right: -50%;
