@@ -1351,6 +1351,129 @@ nav ul li a:hover{
     box-shadow: inset 0px -3px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 50px rgba(0, 0, 0, 0.15);
 }
 
+/* -------------------------- sec5 ---------------------- */
+
+.sec5-h3-text {
+    text-align: center;
+    color: #666666;
+	font-size: 25px;
+    font-weight: 700;
+}
+@media(max-width: 499px) {
+    .sec5-h3-text{
+        font-size: 18px;
+    }
+}
+
+
+.sec5{
+    min-height: 550px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+
+.sec5-inner{
+    /* background-color: red; */
+    width: 90%;
+    min-height: 450px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.sec5-box{
+    border: 1px solid #2D495A;
+    background-image: url(../assets/desktop/Image/Our_Gurus/Guru-\ desktop\ card_without\ icons.svg);
+    background-position:center;
+    background-repeat: no-repeat;
+    width: 310px;
+    min-height: 540px;
+    position: relative;
+    margin: 20px 0;
+    justify-content:center;
+}
+
+.sec5-text{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    min-height: 300px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color:aliceblue;
+}
+.sec5-text h4{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.sec5-text h6{
+    font-family: 'Raleway', sans-serif;
+}
+.sec5-log-text{
+    font-family: 'Lato', sans-serif;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color:aliceblue;
+    width: 100%;
+    min-height: 80px;
+    display: flex;
+    justify-content: center;
+}
+.sec5-logo-img{   
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    min-height: 50px;
+    display: flex;
+    justify-content: center; 
+     
+    
+}
+.sec-logo-img-bt{
+        width: 12%;
+        height:30px;
+        padding-top: 6px;
+        display: flex;
+}
+
+
+/* 
+.sec2-img{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 3;
+}
+.sec2-img img{
+    width: auto;
+    height: 200px;
+} */
+
+.sec5-title-image{
+    width: 70%;
+    height: 40%;
+    position: absolute;
+    top: 50px;
+    left: 40px;
+   
+}
+
 /* -------------------------- sec6 ---------------------- */
 .sec6{
     min-height: 500px;
@@ -1402,7 +1525,7 @@ nav ul li a:hover{
     transform: scale(1.5) translateX(8%) translateY(-8%);
 }
 .sec6-img2{
-    transform: scale(1.5) translateX(-7%) translateY(12%);
+    transform: scale(1.2) translateX(-1%) translateY(12%);
 }
 .sec6-img3{
     transform:  translateX(2%) translateY(-8%);
