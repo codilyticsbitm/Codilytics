@@ -150,7 +150,8 @@ nav ul {
 }
 
 nav.black ul {
-    background: linear-gradient(0deg,rgba(215, 219, 221 , .7), rgba(215, 219, 221 , .7));
+    background: #2D495A;
+    box-shadow: 3px 7px 16px 5px rgba(0,0,0,0.55);
 }
 
 nav ul li {
@@ -1213,7 +1214,7 @@ nav ul li a:hover{
     color: #ffffff;
     font-size: 24px;
     font-weight: 700;
-    background-image: url("./images/Courses/Julia\ cover.png");
+    background-image: url("./images/Courses/Julia.png");
     background-repeat: no-repeat;
     background-size:cover;
 }
@@ -1222,7 +1223,7 @@ nav ul li a:hover{
     color: #ffffff;
     font-size: 24px;
     font-weight: 700;
-    background-image: url("./images/Courses/Data\ Analytics\ with\ Python\ Cover.png");
+    background-image: url("./images/Courses/DSA\ with\ Python.png");
     background-repeat: no-repeat;
     background-size:cover;
 }
@@ -1231,7 +1232,7 @@ nav ul li a:hover{
     color: #ffffff;
     font-size: 24px;
     font-weight: 700;
-    background-image: url("./images/Courses/ml_ai.jfif");
+    background-image: url("./images/Courses/Full\ stack\ dev\ 1.png");
     background-repeat: no-repeat;
     background-size:cover;
 }
@@ -1240,7 +1241,7 @@ nav ul li a:hover{
     color: #ffffff;
     font-size: 24px;
     font-weight: 700;
-    background-image: url("./images/Courses/website-development\ Cover.png");
+    background-image: url("./images/Courses/Full\ stack\ dev\ 2.png");
     background-repeat: no-repeat;
     background-size:cover;
 }
@@ -1258,7 +1259,25 @@ nav ul li a:hover{
     color: #ffffff;
     font-size: 24px;
     font-weight: 700;
-    background-image: url("./images/Courses/Business\ Analytics\ Cover.png");
+    background-image: url("./images/Courses/Business\ analytics.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.sec-3 .card .imageContainer7 {
+	height: 280px;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 700;
+    background-image: url("./images/Courses/ML\ OPS.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.sec-3 .card .imageContainer8 {
+	height: 280px;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 700;
+    background-image: url("./images/Courses/System\ Design.png");
     background-repeat: no-repeat;
     background-size:cover;
 }
@@ -1298,7 +1317,10 @@ nav ul li a:hover{
         font-size: 18px;
     }
 }
-
+.card-title{
+    font-family: 'Raleway', sans-serif !important;
+    font-weight: 400 !important;
+}
 .sec-4 .card {
     max-width: 360px;
     background: radial-gradient(50% 50% at 50% 50%, #335063 0%, #1B3342 100%);
@@ -1353,30 +1375,21 @@ nav ul li a:hover{
 
 /* -------------------------- sec5 ---------------------- */
 
-.sec5-h3-text {
-    text-align: center;
-    color: #666666;
-	font-size: 25px;
-    font-weight: 700;
-}
-@media(max-width: 499px) {
-    .sec5-h3-text{
-        font-size: 18px;
-    }
-}
-
-
 .sec5{
-    min-height: 550px;
-    background-color: white;
+    min-height: 500px;
+    /* background-color: blue; */
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     margin: 20px 0;
 }
-
-
+.sec5-h{
+    font-family: 'Montserrat', sans-serif;
+    padding: 25px 0;
+    color:#666666;
+    font-size: 25px;
+}
 .sec5-inner{
     /* background-color: red; */
     width: 90%;
@@ -1386,91 +1399,97 @@ nav ul li a:hover{
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-}
+            }
+
 .sec5-box{
-    background-image: url(./images/Our_Gurus/Guru-\ desktop\ card_without\ icons.svg);
-    background-position:center;
-    background-repeat: no-repeat;
-    width: 310px;
-    min-height: 540px;
+    background: rgb(204,237,255);
+    background: linear-gradient(0deg, rgba(204,237,255,1) 28%, rgba(185,247,255,1) 88%);
+    width: 280px;
+    min-height: 450px;
     position: relative;
     margin: 20px 0;
-    justify-content:center;
 }
 
-.sec5-text{
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    min-height: 300px;
-    border-radius: 8px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
-    color:aliceblue;
-}
-.sec5-text h4{
-    font-family: 'Montserrat', sans-serif;
-}
-
-.sec5-text h6{
-    font-family: 'Raleway', sans-serif;
-}
-.sec5-log-text{
-    font-family: 'Lato', sans-serif;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    color:aliceblue;
-    width: 100%;
-    min-height: 80px;
-    display: flex;
-    justify-content: center;
-}
-.sec5-logo-img{   
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    min-height: 50px;
-    display: flex;
-    justify-content: center; 
-     
-    
-}
-.sec-logo-img-bt{
-        width: 12%;
-        height:30px;
-        padding-top: 6px;
-        display: flex;
-}
-
-
-/* 
-.sec2-img{
+.sec5-img{
     width: 100%;
     position: absolute;
     top: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: 3;
+    z-index: 0;
 }
-.sec2-img img{
+.sec5-img img{
     width: auto;
     height: 200px;
-} */
-
-.sec5-title-image{
-    width: 70%;
-    height: 40%;
+}
+.sec5-img1{
+    transform: scale(1.1) translateX(-4%) translateY(0%);
+}
+.sec5-img2{
+    transform: scale(1.0) translateX(-1%) translateY(1%);
+}
+.sec5-img3{
+    transform: scale(0.9) translateX(0%) translateY(-0%);
+}
+.sec5-img4{
+    transform: scale(0.9) translateX(-2%) translateY(-2%);
+}
+.sec5-img5{
+    transform: scale(0.9) translateX(1%) translateY(6%);
+}
+.sec5-img6{
+    transform: scale(1.0) translateX(4%) translateY(-5%);
+}
+.sec5-img7{
+    transform: scale(1.0) translateX(-2%) translateY(-1%);
+}
+.sec5-box-bottom{
     position: absolute;
-    top: 50px;
-    left: 40px;
-   
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    min-height: 220px;
+    background: rgb(47,76,94);
+    background: radial-gradient(circle, rgba(47,76,94,1) 28%, rgba(32,57,73,1) 88%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.sec5-text h1{
+    font-family: 'Montserrat', sans-serif;
+    color: whitesmoke;
+    font-size: 24px;
+    margin:8px 0 ;
+}
+.sec5-text p1{
+    font-family: 'Raleway', sans-serif;
+    color: whitesmoke;
+    font-size: 12px;
+    width: 95%;
+    margin: 0 auto;
+    line-height: 22px;
+}
+.sec5-icon{
+    padding-top: 10px;
+}
+.sec5-icon h1{
+    font-family: 'Lato', sans-serif;
+    color: whitesmoke;
+    font-size: 14px;
+    margin:8px 0 ;
+    padding-bottom: 10px;
+}
+.sec5-icon a{
+    padding-right: 8px;
+}
+
+@media(max-width: 499px) {
+    .sec5-h{
+        font-size: 18px;
+    }
 }
 
 /* -------------------------- sec6 ---------------------- */
@@ -1524,7 +1543,7 @@ nav ul li a:hover{
     transform: scale(1.5) translateX(8%) translateY(-8%);
 }
 .sec6-img2{
-    transform: scale(1.2) translateX(-1%) translateY(12%);
+    transform: scale(2) translateX(4%) translateY(12%);
 }
 .sec6-img3{
     transform:  translateX(2%) translateY(-8%);
