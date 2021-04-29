@@ -1393,7 +1393,7 @@ nav ul li a:hover{
 .sec5-inner{
     /* background-color: red; */
     width: 90%;
-    min-height: 450px;
+    min-height: 400px;
     margin: auto;
     display: flex;
     justify-content: space-around;
@@ -1405,7 +1405,7 @@ nav ul li a:hover{
     background: rgb(204,237,255);
     background: linear-gradient(0deg, rgba(204,237,255,1) 28%, rgba(185,247,255,1) 88%);
     width: 280px;
-    min-height: 450px;
+    min-height: 400px;
     position: relative;
     margin: 20px 0;
 }
@@ -1430,7 +1430,7 @@ nav ul li a:hover{
     transform: scale(1.0) translateX(-1%) translateY(1%);
 }
 .sec5-img3{
-    transform: scale(0.9) translateX(0%) translateY(-0%);
+    transform: scale(0.9) translateX(0%) translateY(0%);
 }
 .sec5-img4{
     transform: scale(0.9) translateX(-2%) translateY(-2%);
