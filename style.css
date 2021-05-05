@@ -1329,7 +1329,7 @@ nav ul li a:hover{
 
 .sec-4 .card .card-image {
     width: 270px;
-    height: 160px;
+    height: auto;
     border-radius: 7px;
 }
 
