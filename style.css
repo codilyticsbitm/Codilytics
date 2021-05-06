@@ -336,8 +336,8 @@ nav ul li a:hover{
 }
 
 .secf1-img img{
-    width: 75%;
-    height: 75%;
+    width: 60%;
+    height: 60%;
 }
 .secf2{
     min-height: 50vh;
@@ -526,9 +526,7 @@ nav ul li a:hover{
         transition: 1s ease-in;
     }
     
-    nav.black ul {
-        background: linear-gradient(0deg,rgba(215, 219, 221 , .7), rgba(215, 219, 221 , .7));
-    }
+   
     
     nav ul li {
         display: inline-block;
@@ -943,7 +941,7 @@ nav ul li a:hover{
     }
     .sec1-head-button{
         cursor: pointer;
-        z-index: 2;
+        z-index: 1;
         height: 60px;
         width: 250px;
         border-radius: 8px;
@@ -976,8 +974,8 @@ nav ul li a:hover{
     }
     
     .sec1-image img{
-        width: 70%;
-        height: 70%;
+        width: 80%;
+        height: auto;
     }
 
     .secf1{
@@ -1605,6 +1603,7 @@ nav ul li a:hover{
 .faq {
     width: 100%;
     margin: 0 auto;
+    padding-bottom: 50px;
 }
 
 .course-card {
