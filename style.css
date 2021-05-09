@@ -340,7 +340,8 @@ nav ul li a:hover{
     height: 60%;
 }
 .secf2{
-    min-height: 50vh;
+    margin-top: 30px;
+    min-height: 40vh;
     background: rgb(47,76,94);
     background: radial-gradient(circle, rgba(47,76,94,1) 28%, rgba(32,57,73,1) 88%);
     position: relative;
@@ -358,7 +359,7 @@ nav ul li a:hover{
 .secf2-right{
     position: absolute;
     top: 25%;
-    right :8%;
+    right :15%;
 }
 .secf2-h{
     color: #979A9A ;
@@ -700,7 +701,7 @@ nav ul li a:hover{
         height: 45%;
     }
     .secf2{
-        min-height: 40vh;
+        min-height: 43vh;
         background: rgb(47,76,94);
         background: radial-gradient(circle, rgba(47,76,94,1) 28%, rgba(32,57,73,1) 88%);
         position: relative;
@@ -1058,7 +1059,7 @@ nav ul li a:hover{
     .secf2-left{
         position: absolute;
         top: 15%;
-        left :5%;
+        left :3%;
     }
     .secf2-left a img{
         width: 100px;
@@ -1067,21 +1068,21 @@ nav ul li a:hover{
     .secf2-right{
         position: absolute;
         top: 22%;
-        right :3%;
+        right :2%;
     }
     .secf2-h{
         color: #979A9A ;
         font-family: 'Raleway', sans-serif;
         letter-spacing: 1.5px;
         padding-bottom: 2%;
-        font-size: 10px;
+        font-size: 8px;
     }
     .secf2-p{
         color: white ;
         font-family: 'Montserrat', sans-serif;
         letter-spacing: 1.5px;
         line-height: 25px;
-        font-size: 12px;
+        font-size: 10px;
     }
     .secf2-i{
         margin-top: 10px;
@@ -1089,7 +1090,7 @@ nav ul li a:hover{
     .secf2-i a{
         text-decoration: none;
         color: white;
-        font-size: 20px;
+        font-size: 15px;
         padding-right: 10px;
         margin-top: 10px;
         transition: .2s ease-in;
@@ -1100,7 +1101,7 @@ nav ul li a:hover{
     .secf2-bottom{
         position: absolute;
         bottom: 4%;
-        left: 30%;
+        left: 25%;
         text-align: center;
         font-family: 'Lato', sans-serif;
         font-size: 14px;
@@ -1384,6 +1385,7 @@ nav ul li a:hover{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    flex-direction: column;
     margin: 20px 0;
 }
 .sec5-h{
